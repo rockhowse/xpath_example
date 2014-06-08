@@ -39,7 +39,7 @@ Using the XML above, lets say I wanted to get a list of all the drinks that I ha
 
 
 <code>
-  xpathSApply(rootNode, "//drink", xmlValue)
+  drinks <- xpathSApply(rootNode, "//drink", xmlValue)
 </code>
 
 This results in a list containing the 3 things I had to drink during my meals.
