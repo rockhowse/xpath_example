@@ -11,9 +11,7 @@ As Thierry mentioned above, when you are using the [[1]] notation you are only g
 
 Here is a quick example that doesn't use the xml from the assignment but should help explain it a bit more on how to use the xpathSApply() function to get more than one node.
 
-<code>
-
-'''xml
+```
  <meals>
   <meal>
     <time>09:30 A.M</time>
@@ -31,9 +29,7 @@ Here is a quick example that doesn't use the xml from the assignment but should 
    <drink>Milk</drink>
   </meal>
  </meals>
-'''xml
-
-</code>
+```
 
 In the above example, the <meals/> tag is the rootNode.  If you used the syntax rootNode[[1]][[1]]  it would get the first element inside the <meals/> tag and then the first element inside that first element <meal/> and so would return everything inside the first <meal /> tag.
 
