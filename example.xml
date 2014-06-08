@@ -1,0 +1,17 @@
+<meals>
+  <meal>
+    <time>09:30 A.M</time>
+    <food>Cereal</food>
+    <drink>Orange Juice</drink>
+  </meal>
+  <meal>
+   <time>12:00 P.M</time>
+   <food>Sandwich</food>
+   <drink>Chocolate Milk</drink>
+  </meal>
+  <meal>
+   <time>06:00 P.M</time>
+   <food>Spaghetti</food>
+   <drink>Milk</drink>
+  </meal>
+</meals>
