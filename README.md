@@ -13,7 +13,8 @@ Here is a quick example that doesn't use the xml from the assignment but should 
 
 <code>
 
-<meals>
+'''xml
+ <meals>
   <meal>
     <time>09:30 A.M</time>
     <food>Cereal</food>
@@ -29,7 +30,9 @@ Here is a quick example that doesn't use the xml from the assignment but should 
    <food>Spaghetti</food>
    <drink>Milk</drink>
   </meal>
-</meals>
+ </meals>
+'''xml
+
 </code>
 
 In the above example, the <meals/> tag is the rootNode.  If you used the syntax rootNode[[1]][[1]]  it would get the first element inside the <meals/> tag and then the first element inside that first element <meal/> and so would return everything inside the first <meal /> tag.
