@@ -44,7 +44,7 @@ Using the XML above, lets say I wanted to get a list of all the drinks that I ha
 
 This results in a list containing the 3 things I had to drink during my meals.
 
-<code>
+```
   > drinks
-  [1] "Orange Juice"   "Chocolate Milk" "Milk"
-</code>
+  [1] "Orange Juice" "Chocolate Milk" "Milk"
+```
